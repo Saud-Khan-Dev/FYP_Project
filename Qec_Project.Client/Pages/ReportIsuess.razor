@@ -1,0 +1,30 @@
+@page "/report-issues"
+@using Qec_Project.Shared.Models 
+@inject HttpClient HttpClient
+
+
+
+
+@if(createIssue==null){
+  <h1>Loading</h1>
+}else{
+    <ul>
+        @foreach (var course in createIssue)
+        {
+            <li>@string.Join(", ", course.Keys)</li>
+        }
+    </ul>
+}
+
+
+
+@code
+{
+  private  List<Dictionary<string,string>>? createIssue;
+
+
+  protected override async Task OnInitializedAsync()
+  {
+     createIssue =  await HttpClient.GetFromJsonAsync<List<Dictionary<string,string>>>("http://localhost:4000/api/reportissues/courses"); 
+  }
+}

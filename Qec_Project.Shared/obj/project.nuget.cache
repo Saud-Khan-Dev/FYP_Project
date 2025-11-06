@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cvzBVyWAjhs=",
+  "success": true,
+  "projectFilePath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/saud/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

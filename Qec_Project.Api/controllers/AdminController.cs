@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Qec_Project.Api.Repository;
 
 namespace QEC_Project.API.controllers
 {
@@ -7,58 +7,37 @@ namespace QEC_Project.API.controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        private readonly DBContext _dBContext;
-        public AdminController(DBContext dBContext)
+        private readonly AdminRepository _repo;
+        public AdminController(AdminRepository repo)
         {
-            _dBContext = dBContext;
+            this._repo = repo;
         }
 
-        [HttpGet]
-      public async Task<List<ResponseAdminDTO>> GetAdmins()
-{
-    var admins = await _dBContext.Admin.ToListAsync();
-
-    var response = admins.Select(a => new ResponseAdminDTO
-    {
-        Name = a.Name,
-        Email = a.Email,
-        PhoneNumber = a.PhoneNumber,
-        Role = a.Role,
-        Gender = a.Gender,
-        DateOfJoining = a.DateOfJoining,
-        IsActive = a.IsActive
-    }).ToList();
-
-    return response;
-}
-
         [HttpPost]
-        public async Task <IActionResult> CreateAdmin(CreateAdminDTO createAdminDto)
+        public async Task<IActionResult> CreateAdmin(CreateAdminDTO createAdminDto)
         {
-            var otherUser = _dBContext.Admin.FirstOrDefault(a => a.Email == createAdminDto.Email);
-
-            if (otherUser != null)
+            var res = await _repo.CreateAdmin(createAdminDto);
+            if (!res.success)
             {
-                ModelState.AddModelError("Email", "Admin with this email is already Present in Databse");
+                ModelState.AddModelError("Error", res.message);
                 var validation = new ValidationProblemDetails(ModelState);
                 return BadRequest(validation);
+
             }
 
-            var admin = new AdminModel
+            var response = new Dictionary<bool, string>()
             {
-                Name = createAdminDto.Name,
-                Email = createAdminDto.Email,
-                PhoneNumber = createAdminDto.PhoneNumber,
-                PasswordHash = createAdminDto.HashedPassword,
-                Role = createAdminDto.Role,
-                Gender = createAdminDto.Gender,
-                DateOfJoining = createAdminDto.DateOfJoining,
-                IsActive = createAdminDto.IsActive
+                { res.success,res.message }
             };
-            await _dBContext.Admin.AddAsync(admin);
-            await _dBContext.SaveChangesAsync();
-            return Ok();
+            return Ok(response);
 
+        }
+
+        [HttpGet("get-admin-data")]
+        public async Task<IActionResult> GetAdmin()
+        {
+            var res = await _repo.GetAdminData();
+            return Ok(res);
         }
 
     }

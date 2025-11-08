@@ -64,14 +64,16 @@ namespace QEC_Project.API.controllers
 
 
     [HttpPost("submit")]
-    public Dictionary<string, string> SubmitReport(CreateIssueModel createIssueDTO)
+    public OkObjectResult SubmitReport(CreateIssueModel createIssueDTO)
     {
 
       //Task Saving to DB
-      Dictionary<string, string> response = new();
-      response.Add("message", "Report Submitted Successfully");
+      var response = new Dictionary<string, string>()
+      {
+       { "message","Report is Submitted Successfully"}
+      };
 
-      return response;
+      return Ok(response);
 
     }
 

@@ -9,3 +9,4 @@
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/refint/Qec_Project.Shared.dll
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.pdb
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/ref/Qec_Project.Shared.dll
+/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.sourcelink.json

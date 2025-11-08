@@ -330,3 +330,4 @@
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/obj/Debug/net9.0/ref/Qec_Project.Api.dll
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/bin/Debug/net9.0/Qec_Project.Shared.dll
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/bin/Debug/net9.0/Qec_Project.Shared.pdb
+/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/obj/Debug/net9.0/Qec_Project.Api.sourcelink.json

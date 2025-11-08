@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ROPYItngG72gVMSAd024SdlACcYI2RvwuKIKDtCufbI=",
+  "Hash": "Cl4AaRMDjB8lHdFAwHTI+2YSLsj/VER73TPVNd6wF84=",
   "Source": "Qec_Project.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "v0woff4kcb",
-      "Integrity": "HwMjrX5ltih7S+REDV5zoXQsR2adNtcuYbwG2aS+HSw=",
+      "Fingerprint": "zgpwvkrf1j",
+      "Integrity": "8wfA6sc+L2pP21OHijkOJBeoQYb5o56RYI+Cz7955e4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "9ngv5flkhi",
-      "Integrity": "+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q=",
+      "Fingerprint": "mh2cegj24z",
+      "Integrity": "ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/Qec_Project.Client.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "5ab1oik362",
-      "Integrity": "XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0=",
+      "Fingerprint": "ydcybjqcpe",
+      "Integrity": "ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/webcil/Qec_Project.Client.wasm"
@@ -913,8 +913,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ohvhh69d4k",
-      "Integrity": "VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU=",
+      "Fingerprint": "h2gsdtdup1",
+      "Integrity": "p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/bin/Debug/net9.0/Qec_Project.Shared.pdb"
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "tpu54xpaxs",
-      "Integrity": "weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c=",
+      "Fingerprint": "b5lk2v4gez",
+      "Integrity": "Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/webcil/Qec_Project.Shared.wasm"
@@ -5645,12 +5645,12 @@
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Tasks.Extensions.wasm"
     },
     {
-      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-tpu54xpaxs.gz",
+      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-b5lk2v4gez.gz",
       "SourceId": "Qec_Project.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Qec_Project.Shared#[.{fingerprint=tpu54xpaxs}]!.wasm.gz",
+      "RelativePath": "_framework/Qec_Project.Shared#[.{fingerprint=b5lk2v4gez}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5659,8 +5659,8 @@
       "RelatedAsset": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bfwk06lnw2",
-      "Integrity": "J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY=",
+      "Fingerprint": "gqri8a1sqf",
+      "Integrity": "GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.wasm"
@@ -5729,12 +5729,12 @@
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.wasm"
     },
     {
-      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-9ngv5flkhi.gz",
+      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-mh2cegj24z.gz",
       "SourceId": "Qec_Project.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Qec_Project.Client#[.{fingerprint=9ngv5flkhi}]!.pdb.gz",
+      "RelativePath": "_framework/Qec_Project.Client#[.{fingerprint=mh2cegj24z}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5743,8 +5743,8 @@
       "RelatedAsset": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bb7ilqlfus",
-      "Integrity": "h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU=",
+      "Fingerprint": "ftq59w4my6",
+      "Integrity": "/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.pdb"
@@ -6737,12 +6737,12 @@
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/System.Globalization.Extensions.wasm"
     },
     {
-      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-ohvhh69d4k.gz",
+      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-h2gsdtdup1.gz",
       "SourceId": "Qec_Project.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Qec_Project.Shared#[.{fingerprint=ohvhh69d4k}]!.pdb.gz",
+      "RelativePath": "_framework/Qec_Project.Shared#[.{fingerprint=h2gsdtdup1}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6751,8 +6751,8 @@
       "RelatedAsset": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "awrumo1p7m",
-      "Integrity": "RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc=",
+      "Fingerprint": "ofts4avo7n",
+      "Integrity": "BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb"
@@ -7052,7 +7052,7 @@
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/System.AppContext.wasm"
     },
     {
-      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-v0woff4kcb.gz",
+      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-zgpwvkrf1j.gz",
       "SourceId": "Qec_Project.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/",
@@ -7066,8 +7066,8 @@
       "RelatedAsset": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lu87iqumsp",
-      "Integrity": "c327G+v704aKslX4H5RwLouTKefgITvAND56TpQNLJw=",
+      "Fingerprint": "a6k7b5a8sy",
+      "Integrity": "Ht++197Um2WYg+qeEAH89d3SJAQFxOT9AEzgY05tZjw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -8249,12 +8249,12 @@
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/dotnet.js"
     },
     {
-      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-5ab1oik362.gz",
+      "Identity": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-ydcybjqcpe.gz",
       "SourceId": "Qec_Project.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Qec_Project.Client#[.{fingerprint=5ab1oik362}]!.wasm.gz",
+      "RelativePath": "_framework/Qec_Project.Client#[.{fingerprint=ydcybjqcpe}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8263,8 +8263,8 @@
       "RelatedAsset": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l44uh2r2dk",
-      "Integrity": "m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg=",
+      "Fingerprint": "pf0qdm8v43",
+      "Integrity": "tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.wasm"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HwMjrX5ltih7S+REDV5zoXQsR2adNtcuYbwG2aS+HSw=\""
+          "Value": "\"8wfA6sc+L2pP21OHijkOJBeoQYb5o56RYI+Cz7955e4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:54:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HwMjrX5ltih7S+REDV5zoXQsR2adNtcuYbwG2aS+HSw="
+          "Value": "sha256-8wfA6sc+L2pP21OHijkOJBeoQYb5o56RYI+Cz7955e4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-v0woff4kcb.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-zgpwvkrf1j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080515298"
+          "Quality": "0.000080534751"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12419"
+          "Value": "12416"
         },
         {
           "Name": "ETag",
-          "Value": "\"c327G+v704aKslX4H5RwLouTKefgITvAND56TpQNLJw=\""
+          "Value": "\"Ht++197Um2WYg+qeEAH89d3SJAQFxOT9AEzgY05tZjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:21:11 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HwMjrX5ltih7S+REDV5zoXQsR2adNtcuYbwG2aS+HSw=\""
+          "Value": "W/\"8wfA6sc+L2pP21OHijkOJBeoQYb5o56RYI+Cz7955e4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HwMjrX5ltih7S+REDV5zoXQsR2adNtcuYbwG2aS+HSw="
+          "Value": "sha256-8wfA6sc+L2pP21OHijkOJBeoQYb5o56RYI+Cz7955e4="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-v0woff4kcb.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/k9k45uysr5-zgpwvkrf1j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12419"
+          "Value": "12416"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c327G+v704aKslX4H5RwLouTKefgITvAND56TpQNLJw=\""
+          "Value": "\"Ht++197Um2WYg+qeEAH89d3SJAQFxOT9AEzgY05tZjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:21:11 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c327G+v704aKslX4H5RwLouTKefgITvAND56TpQNLJw="
+          "Value": "sha256-Ht++197Um2WYg+qeEAH89d3SJAQFxOT9AEzgY05tZjw="
         }
       ]
     },
@@ -22369,168 +22369,7 @@
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Client.5ab1oik362.wasm",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20245"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ab1oik362"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Qec_Project.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Client.5ab1oik362.wasm",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-5ab1oik362.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000116468670"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8585"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ab1oik362"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Qec_Project.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Client.5ab1oik362.wasm.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-5ab1oik362.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8585"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ab1oik362"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Qec_Project.Client.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Client.9ngv5flkhi.pdb",
+      "Route": "_framework/Qec_Project.Client.mh2cegj24z.pdb",
       "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22540,7 +22379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25236"
+          "Value": "28448"
         },
         {
           "Name": "Content-Type",
@@ -22548,11 +22387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q=\""
+          "Value": "\"ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:51:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22562,7 +22401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9ngv5flkhi"
+          "Value": "mh2cegj24z"
         },
         {
           "Name": "label",
@@ -22570,18 +22409,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q="
+          "Value": "sha256-ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Client.9ngv5flkhi.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-9ngv5flkhi.gz",
+      "Route": "_framework/Qec_Project.Client.mh2cegj24z.pdb",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-mh2cegj24z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054165313"
+          "Quality": "0.000047605446"
         }
       ],
       "ResponseHeaders": [
@@ -22591,15 +22430,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18461"
+          "Value": "21005"
         },
         {
           "Name": "ETag",
-          "Value": "\"h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU=\""
+          "Value": "\"/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22619,13 +22458,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q=\""
+          "Value": "W/\"ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9ngv5flkhi"
+          "Value": "mh2cegj24z"
         },
         {
           "Name": "label",
@@ -22633,13 +22472,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q="
+          "Value": "sha256-ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Client.9ngv5flkhi.pdb.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-9ngv5flkhi.gz",
+      "Route": "_framework/Qec_Project.Client.mh2cegj24z.pdb.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-mh2cegj24z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22648,7 +22487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18461"
+          "Value": "21005"
         },
         {
           "Name": "Content-Type",
@@ -22656,11 +22495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU=\""
+          "Value": "\"/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22678,7 +22517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9ngv5flkhi"
+          "Value": "mh2cegj24z"
         },
         {
           "Name": "label",
@@ -22686,7 +22525,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU="
+          "Value": "sha256-/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs="
         }
       ]
     },
@@ -22701,7 +22540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25236"
+          "Value": "28448"
         },
         {
           "Name": "Content-Type",
@@ -22709,11 +22548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q=\""
+          "Value": "\"ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:51:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22723,18 +22562,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q="
+          "Value": "sha256-ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Client.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-9ngv5flkhi.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-mh2cegj24z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054165313"
+          "Quality": "0.000047605446"
         }
       ],
       "ResponseHeaders": [
@@ -22744,15 +22583,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18461"
+          "Value": "21005"
         },
         {
           "Name": "ETag",
-          "Value": "\"h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU=\""
+          "Value": "\"/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22772,19 +22611,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q=\""
+          "Value": "W/\"ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+4i3f9xMYxS/+FT0kzY7PTs9P6caIu9+Sx9kB3Pb97Q="
+          "Value": "sha256-ZqrrUoQgjN/D4tS3RwoO+K2gFtpGKT1k035kFwX95do="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Client.pdb.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-9ngv5flkhi.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/acfoi1klfs-mh2cegj24z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22793,7 +22632,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18461"
+          "Value": "21005"
         },
         {
           "Name": "Content-Type",
@@ -22801,11 +22640,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU=\""
+          "Value": "\"/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22823,7 +22662,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-h+JbeN+R7hQ0r//JIsRZLadTWZKjhAiD0ctX9KOuPqU="
+          "Value": "sha256-/f+AANbKE1OYGzOWfIB53fxfafMzyaavlsOBcFWuzQs="
         }
       ]
     },
@@ -22838,7 +22677,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20245"
+          "Value": "27925"
         },
         {
           "Name": "Content-Type",
@@ -22846,11 +22685,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0=\""
+          "Value": "\"ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:51:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22860,18 +22699,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0="
+          "Value": "sha256-ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Client.wasm",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-5ab1oik362.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-ydcybjqcpe.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000116468670"
+          "Quality": "0.000085984523"
         }
       ],
       "ResponseHeaders": [
@@ -22881,15 +22720,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8585"
+          "Value": "11629"
         },
         {
           "Name": "ETag",
-          "Value": "\"m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg=\""
+          "Value": "\"tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22909,19 +22748,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0=\""
+          "Value": "W/\"ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XY/tNE57kX8znDKJMVhjjf7JiKdmNPE4y3tG5K/5Zt0="
+          "Value": "sha256-ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Client.wasm.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-5ab1oik362.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-ydcybjqcpe.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22930,7 +22769,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8585"
+          "Value": "11629"
         },
         {
           "Name": "Content-Type",
@@ -22938,11 +22777,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg=\""
+          "Value": "\"tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 10:22:31 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22960,13 +22799,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m2ah8b81xTSLHYiBZ/+fvZ5yMAb2JzK1623t0DhUpOg="
+          "Value": "sha256-tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.ohvhh69d4k.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb",
+      "Route": "_framework/Qec_Project.Client.ydcybjqcpe.wasm",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22975,19 +22814,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10848"
+          "Value": "27925"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU=\""
+          "Value": "\"ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:48:46 GMT"
+          "Value": "Sat, 08 Nov 2025 06:51:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22997,26 +22836,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ohvhh69d4k"
+          "Value": "ydcybjqcpe"
         },
         {
           "Name": "label",
-          "Value": "_framework/Qec_Project.Shared.pdb"
+          "Value": "_framework/Qec_Project.Client.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU="
+          "Value": "sha256-ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.ohvhh69d4k.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-ohvhh69d4k.gz",
+      "Route": "_framework/Qec_Project.Client.ydcybjqcpe.wasm",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-ydcybjqcpe.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000159872102"
+          "Quality": "0.000085984523"
         }
       ],
       "ResponseHeaders": [
@@ -23026,15 +22865,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6254"
+          "Value": "11629"
         },
         {
           "Name": "ETag",
-          "Value": "\"RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc=\""
+          "Value": "\"tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23050,31 +22889,31 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU=\""
+          "Value": "W/\"ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ohvhh69d4k"
+          "Value": "ydcybjqcpe"
         },
         {
           "Name": "label",
-          "Value": "_framework/Qec_Project.Shared.pdb"
+          "Value": "_framework/Qec_Project.Client.wasm"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU="
+          "Value": "sha256-ytUPwoUJCNSjVlKLxHBjV8knlwFIgxTLpyb6ndcSQiM="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.ohvhh69d4k.pdb.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-ohvhh69d4k.gz",
+      "Route": "_framework/Qec_Project.Client.ydcybjqcpe.wasm.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/rczbczsz5f-ydcybjqcpe.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23083,19 +22922,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6254"
+          "Value": "11629"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc=\""
+          "Value": "\"tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 06:52:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23113,157 +22952,20 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ohvhh69d4k"
+          "Value": "ydcybjqcpe"
         },
         {
           "Name": "label",
-          "Value": "_framework/Qec_Project.Shared.pdb.gz"
+          "Value": "_framework/Qec_Project.Client.wasm.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc="
+          "Value": "sha256-tQkciS77LUYF6LRhpzOApj7DgqySJgmEn0eY4ZxVGlg="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10848"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:48:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Shared.pdb",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-ohvhh69d4k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000159872102"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6254"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VO3qGM7CnMj6wLPE1n+c4F/SJlMtBUNg93YfF7wppOU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Shared.pdb.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-ohvhh69d4k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6254"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RpFkBK7vk0LDv5g4a5ESVzRHRksWO9NyhwheuOCE6Zc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Qec_Project.Shared.tpu54xpaxs.wasm",
+      "Route": "_framework/Qec_Project.Shared.b5lk2v4gez.wasm",
       "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23281,11 +22983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c=\""
+          "Value": "\"Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23295,7 +22997,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tpu54xpaxs"
+          "Value": "b5lk2v4gez"
         },
         {
           "Name": "label",
@@ -23303,18 +23005,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c="
+          "Value": "sha256-Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.tpu54xpaxs.wasm",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-tpu54xpaxs.gz",
+      "Route": "_framework/Qec_Project.Shared.b5lk2v4gez.wasm",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-b5lk2v4gez.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000492368291"
+          "Quality": "0.000486618005"
         }
       ],
       "ResponseHeaders": [
@@ -23324,15 +23026,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2030"
+          "Value": "2054"
         },
         {
           "Name": "ETag",
-          "Value": "\"J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY=\""
+          "Value": "\"GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23352,13 +23054,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c=\""
+          "Value": "W/\"Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tpu54xpaxs"
+          "Value": "b5lk2v4gez"
         },
         {
           "Name": "label",
@@ -23366,13 +23068,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c="
+          "Value": "sha256-Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ="
         }
       ]
     },
     {
-      "Route": "_framework/Qec_Project.Shared.tpu54xpaxs.wasm.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-tpu54xpaxs.gz",
+      "Route": "_framework/Qec_Project.Shared.b5lk2v4gez.wasm.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-b5lk2v4gez.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23381,7 +23083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2030"
+          "Value": "2054"
         },
         {
           "Name": "Content-Type",
@@ -23389,11 +23091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY=\""
+          "Value": "\"GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23411,7 +23113,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tpu54xpaxs"
+          "Value": "b5lk2v4gez"
         },
         {
           "Name": "label",
@@ -23419,7 +23121,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY="
+          "Value": "sha256-GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.h2gsdtdup1.pdb",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2gsdtdup1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Qec_Project.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.h2gsdtdup1.pdb",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-h2gsdtdup1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000156347717"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2gsdtdup1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Qec_Project.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.h2gsdtdup1.pdb.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-h2gsdtdup1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h2gsdtdup1"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Qec_Project.Shared.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.pdb",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/bin/Debug/net9.0/wwwroot/_framework/Qec_Project.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.pdb",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-h2gsdtdup1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000156347717"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p66dKCfdA6qfWtgjTG2fOaf0bVPqN+lpGsAJSMLfoPI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Qec_Project.Shared.pdb.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/i60lz3gzbe-h2gsdtdup1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGAB96ZPUTZVUQ8fgX42eCg4LnMhku9gs8cPFSPKBDg="
         }
       ]
     },
@@ -23442,11 +23442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c=\""
+          "Value": "\"Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23456,18 +23456,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c="
+          "Value": "sha256-Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Shared.wasm",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-tpu54xpaxs.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-b5lk2v4gez.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000492368291"
+          "Quality": "0.000486618005"
         }
       ],
       "ResponseHeaders": [
@@ -23477,15 +23477,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2030"
+          "Value": "2054"
         },
         {
           "Name": "ETag",
-          "Value": "\"J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY=\""
+          "Value": "\"GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23505,19 +23505,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c=\""
+          "Value": "W/\"Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-weLxlBXMQNQ6hKO13MDI/L9ST+LeKUgWKLDBFZzgb6c="
+          "Value": "sha256-Dwa25QL4+whp9oE85atfSHJlGKSjwemrN356KhWmZuQ="
         }
       ]
     },
     {
       "Route": "_framework/Qec_Project.Shared.wasm.gz",
-      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-tpu54xpaxs.gz",
+      "AssetFile": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Client/obj/Debug/net9.0/compressed/9ju29lydvl-b5lk2v4gez.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23526,7 +23526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2030"
+          "Value": "2054"
         },
         {
           "Name": "Content-Type",
@@ -23534,11 +23534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY=\""
+          "Value": "\"GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Nov 2025 06:49:40 GMT"
+          "Value": "Sat, 08 Nov 2025 05:29:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23556,7 +23556,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J8k6VybRyblbWLyn5NHziuevtpeU3Y4eSnAorfLd0PY="
+          "Value": "sha256-GCP3AFdFRQuvurkEWMKBerCkLoOQHiN7ZDV25jcs+P8="
         }
       ]
     },

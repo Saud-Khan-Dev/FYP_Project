@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Qec_Project.Api.model;
 
 namespace Qec_Project.Api.Repository;
 
@@ -15,13 +16,13 @@ public class AdminRepository : IAdminRepository
 
 
 
-  public async Task<(bool success, string message)> CreateAdmin(CreateAdminDTO createAdminDto)
+  public async Task<ResponseModel> CreateAdmin(CreateAdminDTO createAdminDto)
   {
     var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.Email == createAdminDto.Email);
 
     if (alreadyExisted != null)
     {
-      return (false, "Already exist with this email");
+      return new ResponseModel(false, "Already exist with this email");
     }
 
     var admin = new AdminModel()
@@ -38,7 +39,7 @@ public class AdminRepository : IAdminRepository
     await _dBContext.Admin.AddAsync(admin);
     await _dBContext.SaveChangesAsync();
 
-    return (true, "Admin is Created Successfully");
+    return new (true, "Admin is Created Successfully");
 
   }
 

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Qec_Project.Api.model;
 using Qec_Project.Api.Repository;
 
 namespace QEC_Project.API.controllers
@@ -25,11 +26,8 @@ namespace QEC_Project.API.controllers
 
             }
 
-            var response = new Dictionary<bool, string>()
-            {
-                { res.success,res.message }
-            };
-            return Ok(response);
+            
+            return Ok(new ResponseDTO(res.success,res.message));
 
         }
 

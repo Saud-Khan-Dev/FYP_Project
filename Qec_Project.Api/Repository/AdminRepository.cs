@@ -16,13 +16,13 @@ public class AdminRepository : IAdminRepository
 
 
 
-  public async Task<ResponseModel> CreateAdmin(CreateAdminDTO createAdminDto)
+  public async Task<ResponseDTO> CreateAdmin(CreateAdminDTO createAdminDto)
   {
     var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.Email == createAdminDto.Email);
 
     if (alreadyExisted != null)
     {
-      return new ResponseModel(false, "Already exist with this email");
+      return new ResponseDTO(false, "Already exist with this email");
     }
 
     var admin = new AdminModel()

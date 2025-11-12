@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Qec_Project.Api.Repository;
+using QEC_Project.API.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,6 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("http://localhost:4001").AllowAnyHeader().AllowAnyMethod();
     });
 });
-
-
-
-
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -26,6 +23,10 @@ builder.Services.AddDbContext<DBContext>(options =>
 });
 
 builder.Services.AddScoped<AdminRepository>();
+builder.Services.AddScoped<CourseRepository>();
+builder.Services.AddScoped<SyllabusRepository>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

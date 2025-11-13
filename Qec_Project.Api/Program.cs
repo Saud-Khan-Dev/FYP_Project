@@ -25,6 +25,8 @@ builder.Services.AddDbContext<DBContext>(options =>
 builder.Services.AddScoped<AdminRepository>();
 builder.Services.AddScoped<CourseRepository>();
 builder.Services.AddScoped<SyllabusRepository>();
+builder.Services.AddScoped<TeachingWeeklyScheduleRepository>();
+
 
 
 var app = builder.Build();

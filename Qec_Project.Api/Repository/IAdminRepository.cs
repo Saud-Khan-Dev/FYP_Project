@@ -1,5 +1,4 @@
 
-using Microsoft.AspNetCore.Mvc;
 using Qec_Project.Api.model;
 
 namespace Qec_Project.Api.Repository

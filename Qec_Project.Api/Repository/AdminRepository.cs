@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using QEC_Project.API.Common;
 using Qec_Project.Api.model;
 
 namespace Qec_Project.Api.Repository;
@@ -16,50 +17,85 @@ public class AdminRepository : IAdminRepository
 
 
 
-  public async Task<ResponseDTO> CreateAdmin(CreateAdminDTO createAdminDto)
+  public async Task<Result<ResponseAdminDTO>> CreateAdmin(CreateAdminDTO createAdminDto)
   {
-    var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.Email == createAdminDto.Email);
-
-    if (alreadyExisted != null)
+    try
     {
-      return new ResponseDTO(false, "Already exist with this email");
+      var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.Email == createAdminDto.Email);
+
+      if (alreadyExisted != null)
+      {
+        return Result<ResponseAdminDTO>.Failure("Admin is already present with this email");
+      }
+
+      var newAdmin = new AdminModel()
+      {
+        Name = createAdminDto.Name,
+        Email = createAdminDto.Email,
+        PhoneNumber = createAdminDto.PhoneNumber,
+        PasswordHash = createAdminDto.HashedPassword,
+        Role = createAdminDto.Role,
+        Gender = createAdminDto.Gender,
+        DateOfJoining = createAdminDto.DateOfJoining,
+        IsActive = createAdminDto.IsActive
+      };
+      await _dBContext.Admin.AddAsync(newAdmin);
+      await _dBContext.SaveChangesAsync();
+
+      var admin = new ResponseAdminDTO()
+      {
+        Id = newAdmin.Id,
+        Name = newAdmin.Name,
+        Email = newAdmin.Email,
+        PhoneNumber = newAdmin.PhoneNumber,
+        Role = newAdmin.Role,
+        Gender = newAdmin.Gender,
+        DateOfJoining = newAdmin.DateOfJoining,
+        IsActive = newAdmin.IsActive
+      };
+
+      return Result<ResponseAdminDTO>.OK(admin);
     }
-
-    var admin = new AdminModel()
+    catch (Exception e)
     {
-      Name = createAdminDto.Name,
-      Email = createAdminDto.Email,
-      PhoneNumber = createAdminDto.PhoneNumber,
-      PasswordHash = createAdminDto.HashedPassword,
-      Role = createAdminDto.Role,
-      Gender = createAdminDto.Gender,
-      DateOfJoining = createAdminDto.DateOfJoining,
-      IsActive = createAdminDto.IsActive
-    };
-    await _dBContext.Admin.AddAsync(admin);
-    await _dBContext.SaveChangesAsync();
+      return Result<ResponseAdminDTO>.Failure(e.Message);
 
-    return new (true, "Admin is Created Successfully");
+    }
 
   }
 
-  public async Task<List<ResponseAdminDTO>> GetAdminData()
+  public async Task<Result<ResponseAdminDTO>> GetAdminData(string id)
   {
 
-    var admin = await _dBContext.Admin.ToListAsync();
-
-    var response = admin.Select(ad => new ResponseAdminDTO()
+    try
     {
-      Name = ad.Name,
-      Email = ad.Email,
-      PhoneNumber = ad.PhoneNumber,
-      Role = ad.Role,
-      Gender = ad.Gender,
-      DateOfJoining = ad.DateOfJoining,
-      IsActive = ad.IsActive
-    }).ToList();
+      var res = await _dBContext.Admin.FindAsync(id);
+      if (res == null)
+      {
+        return Result<ResponseAdminDTO>.Failure("Admin not found");
+      }
+      var admin = new ResponseAdminDTO()
+      {
+        Id = res.Id,
+        Name = res.Name,
+        Email = res.Email,
+        PhoneNumber = res.PhoneNumber,
+        Role = res.Role,
+        Gender = res.Gender,
+        DateOfJoining = res.DateOfJoining,
+        IsActive = res.IsActive
+      };
+      return Result<ResponseAdminDTO>.OK(admin);
 
-    return response;
+    }
+    catch (Exception e)
+    {
+      return Result<ResponseAdminDTO>.Failure(e.Message);
+
+    }
+
+
+
 
   }
 

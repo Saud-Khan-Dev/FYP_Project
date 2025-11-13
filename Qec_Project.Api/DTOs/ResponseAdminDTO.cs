@@ -1,6 +1,7 @@
 public class ResponseAdminDTO
 {
 
+  public int Id {get;set;}
   public string Name { get; set; }
 
 
@@ -15,5 +16,6 @@ public class ResponseAdminDTO
 
   public DateTime DateOfJoining { get; set; }
 
-  public bool IsActive { get; set; } = true;
+  public bool IsActive { get; set; }
+
 }

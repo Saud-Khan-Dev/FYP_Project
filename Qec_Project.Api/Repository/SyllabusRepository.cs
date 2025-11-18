@@ -23,11 +23,12 @@ namespace QEC_Project.API.Repository
         TypicalContentOfSyllbus = createSyllabusDto.TypicalContentOfSyllbus,
         CourseId = createSyllabusDto.CourseId
       };
+      course.SyllabusId = createSyllabusDto.Id;
+      this._dBContext.Course.Update(course);
       await this._dBContext.SyllabusModel.AddAsync(syllabus);
       await this._dBContext.SaveChangesAsync();
 
-      course.SyllabusId = createSyllabusDto.Id;
-      this._dBContext.Course.Update(course);
+
       await this._dBContext.SaveChangesAsync();
       return new ResponseDTO(true, "Syllabus Created Successfully");
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj": {}
+    "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj": {}
   },
   "projects": {
-    "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj": {
+    "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj",
+        "projectUniqueName": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj",
         "projectName": "Qec_Project.Api",
-        "projectPath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj",
+        "projectPath": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Api/Qec_Project.Api.csproj",
         "packagesPath": "/home/saud/.nuget/packages/",
-        "outputPath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Api/obj/",
+        "outputPath": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/saud/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj": {
-                "projectPath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj"
+              "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj": {
+                "projectPath": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj": {
+    "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj",
+        "projectUniqueName": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj",
         "projectName": "Qec_Project.Shared",
-        "projectPath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj",
+        "projectPath": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/Qec_Project.Shared.csproj",
         "packagesPath": "/home/saud/.nuget/packages/",
-        "outputPath": "/home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/",
+        "outputPath": "/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/saud/.nuget/NuGet/NuGet.Config"

@@ -15,7 +15,7 @@ public class AdminConfiguration : IEntityTypeConfiguration<AdminModel>
               .HasMaxLength(200).IsRequired();
     entityBuilder.Property(t => t.PhoneNumber)
               .HasMaxLength(50).IsRequired();
-    entityBuilder.Property(t => t.PasswordHash)
+    entityBuilder.Property(t => t.Password)
               .HasMaxLength(255).IsRequired();
     entityBuilder.Property(t => t.Role)
               .HasMaxLength(20).IsRequired();

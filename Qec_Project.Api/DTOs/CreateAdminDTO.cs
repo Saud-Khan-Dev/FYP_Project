@@ -1,5 +1,7 @@
 public class CreateAdminDTO
 {
+  public string EmployeeId { get; set; }
+
   public string Name { get; set; }
 
 

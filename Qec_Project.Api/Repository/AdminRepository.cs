@@ -21,11 +21,11 @@ public class AdminRepository : IAdminRepository
   {
     try
     {
-      var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.Email == createAdminDto.Email);
+      var alreadyExisted = _dBContext.Admin.FirstOrDefault(ad => ad.EmployeeId == createAdminDto.EmployeeId);
 
       if (alreadyExisted != null)
       {
-        return Result<ResponseAdminDTO>.Failure("Admin is already present with this email");
+        return Result<ResponseAdminDTO>.Failure("Admin is already present with this Id");
       }
 
       var newAdmin = new AdminModel()
@@ -33,7 +33,7 @@ public class AdminRepository : IAdminRepository
         Name = createAdminDto.Name,
         Email = createAdminDto.Email,
         PhoneNumber = createAdminDto.PhoneNumber,
-        PasswordHash = createAdminDto.HashedPassword,
+        Password = createAdminDto.HashedPassword,
         Role = createAdminDto.Role,
         Gender = createAdminDto.Gender,
         DateOfJoining = createAdminDto.DateOfJoining,

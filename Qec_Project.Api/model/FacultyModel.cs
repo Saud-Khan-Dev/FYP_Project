@@ -2,7 +2,6 @@ using System.ComponentModel.DataAnnotations;
 
 public class FacultyModel : User
 {
-
   public string EmployeeId { get; set; }
 
   public string Department { get; set; }

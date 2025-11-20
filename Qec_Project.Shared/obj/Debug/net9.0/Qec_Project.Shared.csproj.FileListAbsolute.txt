@@ -10,3 +10,15 @@
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.pdb
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/ref/Qec_Project.Shared.dll
 /home/saud/MyData/Coding_Env/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.sourcelink.json
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/bin/Debug/net9.0/Qec_Project.Shared.deps.json
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/bin/Debug/net9.0/Qec_Project.Shared.dll
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/bin/Debug/net9.0/Qec_Project.Shared.pdb
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.AssemblyInfoInputs.cache
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.AssemblyInfo.cs
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.csproj.CoreCompileInputs.cache
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.sourcelink.json
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.dll
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/refint/Qec_Project.Shared.dll
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/Qec_Project.Shared.pdb
+/home/saud/Work/Coding_Env/FYP/FYP_Project/Qec_Project.Shared/obj/Debug/net9.0/ref/Qec_Project.Shared.dll

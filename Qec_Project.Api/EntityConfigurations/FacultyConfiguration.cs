@@ -13,7 +13,7 @@ public class FacultyConfiguration : IEntityTypeConfiguration<FacultyModel>
               .HasMaxLength(200).IsRequired();
     entityBuilber.Property(t => t.PhoneNumber)
               .HasMaxLength(50).IsRequired();
-    entityBuilber.Property(t => t.PasswordHash)
+    entityBuilber.Property(t => t.Password)
               .HasMaxLength(255).IsRequired();
     entityBuilber.Property(t => t.Role)
               .HasMaxLength(20).IsRequired();

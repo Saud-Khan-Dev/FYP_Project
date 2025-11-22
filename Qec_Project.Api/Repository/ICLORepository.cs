@@ -7,7 +7,7 @@ namespace QEC_Project.API.Repository
   public interface ICLORepository
   {
     public Task<ResponseDTO> CreateCLO(CLODTO createClo);
-    public Task<List<CLODTO>> GetCLO(int courseId);
+    public Task<Result<List<CLODTO>>> GetCLO(int courseId);
 
     public Task<ResponseDTO> UpdateCLO(CLODTO updateClol);
 

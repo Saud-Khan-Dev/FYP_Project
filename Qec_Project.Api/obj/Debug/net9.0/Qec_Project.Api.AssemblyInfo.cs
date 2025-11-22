@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qec_Project.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2cda6a4ec5bea9f36c4c05ee4e34911c8527d62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0af7b9c6e02bec45110e11c707681ff04aece2eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qec_Project.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qec_Project.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,9 +15,12 @@ namespace QEC_Project.API.controllers
         }
 
         [HttpGet]
-        public async Task<List<CourseModel>> GgetCourses()
+        public async Task<IActionResult> GgetCourses()
         {
-            return await this._courseRepository.GetAllCourse();
+
+            var res = await this._courseRepository.GetAllCourse();
+
+            return Ok(res);
         }
 
         [HttpPost("create-course")]
@@ -38,15 +41,14 @@ namespace QEC_Project.API.controllers
         public async Task<IActionResult> GetSpecificCourse(string courseCode)
         {
             var res = await this._courseRepository.GetSpecificCourse(courseCode);
-            if (res == null)
+            if (!res.Success)
             {
                 ModelState.AddModelError("Error", "Course not found");
                 var validation = new ValidationProblemDetails(ModelState);
                 return BadRequest(validation);
             }
 
-            return Ok(new CourseDTO(res.CourseCode, res.Description, res.TheoreyCreditHours,
-                res.LabCreditHours, res.IsActive));
+            return Ok(res);
 
         }
 
@@ -82,4 +84,3 @@ namespace QEC_Project.API.controllers
 
     }
 }
- 

@@ -1,3 +1,4 @@
+using QEC_Project.API.Common;
 using QEC_Project.API.DTOs;
 using Qec_Project.Api.model;
 using QEC_Project.API.Repository;
@@ -19,9 +20,10 @@ namespace QEC_Project.API.Services
 
     }
 
-    public async Task<List<CLODTO>> GetClo(string courseId)
+    public async Task<Result<List<CLODTO>>> GetClo(string courseId)
     {
-      return await this._repo.GetCLO(int.Parse(courseId));
+
+      return await this._repo.GetCLO(int.Parse(courseId)); 
 
     }
 

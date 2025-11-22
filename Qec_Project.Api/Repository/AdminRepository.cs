@@ -1,6 +1,4 @@
-using Microsoft.EntityFrameworkCore;
 using QEC_Project.API.Common;
-using Qec_Project.Api.model;
 
 namespace Qec_Project.Api.Repository;
 

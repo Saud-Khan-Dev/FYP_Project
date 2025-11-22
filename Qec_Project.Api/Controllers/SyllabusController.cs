@@ -14,10 +14,10 @@ namespace Qec_Project.Api.controllers
             this._repo = syllabusRepository;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetSyllabus()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetSyllabus(string id)
         {
-            var res = await this._repo.GetSyllabus();
+            var res = await this._repo.GetSyllabus(int.Parse(id));
             if (res == null)
             {
                 return NotFound("There is no syllabus yet");

@@ -40,7 +40,7 @@ namespace QEC_Project.API.Services
       var res = await this._repo.GetSpecificFaculty(empId);
       return res;
     }
-    public async Task<List<ResponseFacultyDTO>> GetAllFaculty()
+    public async Task<Result<List<ResponseFacultyDTO>>> GetAllFaculty()
     {
       var res = await this._repo.GetAllFaculty();
       return res;

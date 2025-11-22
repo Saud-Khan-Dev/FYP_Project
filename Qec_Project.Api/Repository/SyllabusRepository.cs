@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Qec_Project.Api.model;
+using QEC_Project.API.Common;
 
 namespace QEC_Project.API.Repository
 {
@@ -13,66 +14,97 @@ namespace QEC_Project.API.Repository
     }
     public async Task<ResponseDTO> CreateSyllabus(SyllabusDTO createSyllabusDto)
     {
-      var course = await this._dBContext.Course.FindAsync(createSyllabusDto.CourseId);
-      if (course == null)
+      try
       {
-        return new ResponseDTO(false, "No course is Found");
+        var course = await this._dBContext.Course.FirstOrDefaultAsync(cs => cs.Id == createSyllabusDto.CourseId);
+        if (course == null)
+        {
+          return new ResponseDTO(false, "No course is Found");
+        }
+        var syllabus = new SyllabusModel()
+        {
+          TypicalContentOfSyllbus = createSyllabusDto.TypicalContentOfSyllbus,
+          CourseId = createSyllabusDto.CourseId
+        };
+        course.SyllabusId = createSyllabusDto.Id;
+        this._dBContext.Course.Update(course);
+        await this._dBContext.SyllabusModel.AddAsync(syllabus);
+        await this._dBContext.SaveChangesAsync();
+        await this._dBContext.SaveChangesAsync();
+        return new ResponseDTO(true, "Syllabus Created Successfully");
       }
-      var syllabus = new SyllabusModel()
+      catch (Exception e)
       {
-        TypicalContentOfSyllbus = createSyllabusDto.TypicalContentOfSyllbus,
-        CourseId = createSyllabusDto.CourseId
-      };
-      course.SyllabusId = createSyllabusDto.Id;
-      this._dBContext.Course.Update(course);
-      await this._dBContext.SyllabusModel.AddAsync(syllabus);
-      await this._dBContext.SaveChangesAsync();
 
+        return new ResponseDTO(false, e.Message);
 
-      await this._dBContext.SaveChangesAsync();
-      return new ResponseDTO(true, "Syllabus Created Successfully");
+      }
     }
 
-    public async Task<List<SyllabusDTO>> GetSyllabus()
+    public async Task<Result<List<SyllabusDTO>>> GetSyllabus(int courseId)
     {
-      var res = await this._dBContext.SyllabusModel.ToListAsync();
-      var syllabus = res.Select(c => new SyllabusDTO()
+      try
       {
-        Id = c.Id,
-        TypicalContentOfSyllbus = c.TypicalContentOfSyllbus,
-        RecommendedReadingsId = c.RecommendedReadingsId,
-        CourseId = c.CourseId
-      }).ToList();
+        var res = this._dBContext.SyllabusModel.Where(cs => cs.CourseId == courseId);
+        var syllabus = res.Select(c => new SyllabusDTO()
+        {
+          Id = c.Id,
+          TypicalContentOfSyllbus = c.TypicalContentOfSyllbus,
+          RecommendedReadingsId = c.RecommendedReadingsId,
+          CourseId = c.CourseId
+        }).ToList();
 
-      return syllabus;
+        return Result<List<SyllabusDTO>>.OK(syllabus);
+      }
+      catch (Exception e)
+      {
+        return Result<List<SyllabusDTO>>.Failure(e.Message);
+
+      }
     }
 
     public async Task<ResponseDTO> UpdateSyllabus(SyllabusDTO syllabusDto)
     {
-      var syllabus = await this._dBContext.SyllabusModel.FindAsync(syllabusDto.Id);
-      if (syllabus == null)
+      try
       {
-        return new ResponseDTO(false, "Syllabus is not found");
-      }
-      syllabus.CourseId = syllabusDto.CourseId;
-      syllabus.TypicalContentOfSyllbus = syllabusDto.TypicalContentOfSyllbus;
-      syllabus.RecommendedReadingsId = syllabusDto.RecommendedReadingsId;
+        var syllabus = await this._dBContext.SyllabusModel.FindAsync(syllabusDto.Id);
+        if (syllabus == null)
+        {
+          return new ResponseDTO(false, "Syllabus is not found");
+        }
+        syllabus.CourseId = syllabusDto.CourseId;
+        syllabus.TypicalContentOfSyllbus = syllabusDto.TypicalContentOfSyllbus;
+        syllabus.RecommendedReadingsId = syllabusDto.RecommendedReadingsId;
 
-      this._dBContext.SyllabusModel.Update(syllabus);
-      await this._dBContext.SaveChangesAsync();
-      return new ResponseDTO(true, "Syllabus is Updated successfully");
+        this._dBContext.SyllabusModel.Update(syllabus);
+        await this._dBContext.SaveChangesAsync();
+        return new ResponseDTO(true, "Syllabus is Updated successfully");
+      }
+      catch (Exception e)
+      {
+        return new ResponseDTO(false, e.Message);
+
+      }
     }
 
     public async Task<ResponseDTO> DeleteSyllabus(string id)
     {
-      var syllabus = await this._dBContext.SyllabusModel.FindAsync(id);
-      if (syllabus == null)
+      try
       {
-        return new ResponseDTO(false, "Syllabus is not found");
+        var syllabus = await this._dBContext.SyllabusModel.FindAsync(id);
+        if (syllabus == null)
+        {
+          return new ResponseDTO(false, "Syllabus is not found");
+        }
+        this._dBContext.SyllabusModel.Remove(syllabus);
+        await this._dBContext.SaveChangesAsync();
+        return new ResponseDTO(true, "Syllabus is Deleted successfully");
       }
-      this._dBContext.SyllabusModel.Remove(syllabus);
-      await this._dBContext.SaveChangesAsync();
-      return new ResponseDTO(true, "Syllabus is Deleted successfully");
+      catch (Exception e)
+      {
+        return new ResponseDTO(false, e.Message);
+
+      }
     }
   }
 }

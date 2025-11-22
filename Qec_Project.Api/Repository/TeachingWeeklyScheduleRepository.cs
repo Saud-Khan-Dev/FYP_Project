@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using QEC_Project.API.Common;
 using Qec_Project.Api.model;
 
 namespace QEC_Project.API.Repository
@@ -45,14 +46,14 @@ namespace QEC_Project.API.Repository
 
     }
 
-    public async Task<TeachingWeeklyScheduleDTO> GetSchedule(string id)
+    public async Task<Result<TeachingWeeklyScheduleDTO>> GetSchedule(string id)
     {
       try
       {
         var res = await this._dBContext.TeachingWeeklySchedules.FindAsync(id);
         if (res == null)
         {
-          return null;
+          return Result<TeachingWeeklyScheduleDTO>.Failure("No Schedule");
         }
         var schedule = new TeachingWeeklyScheduleDTO()
         {
@@ -61,13 +62,15 @@ namespace QEC_Project.API.Repository
           WeeklyContent = res.WeeklyContent,
           CourseId = res.CourseId,
         };
-        return schedule;
+        return Result<TeachingWeeklyScheduleDTO>.OK(schedule);
+
 
       }
       catch (Exception e)
       {
 
-        return null;
+        return Result<TeachingWeeklyScheduleDTO>.Failure(e.Message);
+
 
       }
     }
